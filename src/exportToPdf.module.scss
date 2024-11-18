@@ -1,0 +1,72 @@
+:root {
+  font-family: "Times New Roman";
+  table,
+  th,
+  td {
+    border: 1px solid white;
+    border-collapse: collapse;
+    padding: 5px;
+  }
+  font-size: 10pt;
+}
+
+.title {
+  text-align: left;
+}
+
+.first {
+  display: flex;
+  .wrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    .left {
+      .item {
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+      }
+    }
+    .right {
+      .item {
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+      }
+    }
+  }
+}
+
+.third {
+  width: 100%;
+  .item1 {
+    width: 10%;
+  }
+  .item2 {
+    width: 50%;
+  }
+  .item3 {
+    width: 20%;
+  }
+  .item4 {
+    width: 20%;
+  }
+}
+
+.paper {
+  background: #1a1a1a;
+  color: #fff;
+  width: 210mm;
+  height: 297mm;
+  .header {
+    font-weight: bold;
+    font-size: 14pt;
+  }
+  .section {
+    padding: 30px 30px 0px 30px;
+    table tr .headerText {
+      font-size: 10pt;
+      text-align: left;
+    }
+  }
+}
